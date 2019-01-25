@@ -1,11 +1,11 @@
-Package: MyTemplates
+Package: NRMreporttemplate
 Type: Package
-Title: What the Package Does (Title Case)
+Title: NRM rmarkdown templates
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Thomas Källman
+Maintainer: Thomas Källman thomas.kallman@nrm.se
+Description: Template for generating consistent reports
+    Simple templates that can generate pdf/docx/html reports with a unified look
+License: MIT
 Encoding: UTF-8
 LazyData: true

@@ -1,12 +1,7 @@
-R Markdown Templates: Minimal Examples <img src="https://bookdown.org/yihui/rmarkdown/images/cover.png" align="right" width=60 height= 100/>
-======================================================
-
-This repository provides a couple of minimal examples of R Markdown templates. If you are reading this, you have likely found about example in [Chapter 17](https://bookdown.org/yihui/rmarkdown/document-templates.html#) in the R Markdown definitive guide book.
-
-The repository contains several basic examples:
+This repository provides a few examples of R Markdown templates that are used at [CGI](http://nrm.se/cgi) to generate reports. Note that the repo is not useful unless you are working at CGI as it contains logos etc that are copyright protected. Other than those feel free to fork and/or clone the repo as you please.
 
 - **My Template**: shows a minimal R Markdown template, defining several styles for HTML outputs.
-- **My Template (Extra Files)**: includes a custom logo and a `style.css` file to change the style of tables.
+´- **My Template (Extra Files)**: includes a custom logo and a `style.css` file to change the style of tables.
 - **My Template (HTML edits)**: uses a custom HTML template to add a customisable footer to the document.
 - **My Template (LaTeX edits)**: uses a custom LaTeX template which adds extra fields to the header.
 - **My Template (Custom Format)**: this uses a custom R Markdown format to use extra files without a copy having to be made to the directory (see [Chapter 18](https://bookdown.org/yihui/rmarkdown/new-formats.html))

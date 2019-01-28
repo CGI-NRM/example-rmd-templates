@@ -3,7 +3,7 @@ Type: Package
 Title: CGI rmarkdown templates
 Version: 0.1.0
 Authors@R: person("Thomas", "Källman", email = "thomas.kallman@nrm.se",
-                  role = c("aut", "cre")
+                  role = c("aut", "cre"))
 Description: Template for generating consistent reports
     Simple templates that can generate pdf/docx/html reports with a consistent and unified look and feel
 License: MIT

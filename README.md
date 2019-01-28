@@ -1,4 +1,4 @@
-This repository provides a few examples of R Markdown templates that are used at [CGI](http://nrm.se/cgi) to generate reports. Note that the repo is not useful unless you are working at CGI as it contains logos etc that are copyright protected. Other than those feel free to fork and/or clone the repo as you please.
+This repository provides a few examples of R Markdown templates that are used at [CGI](http://nrm.se/cgi) to generate reports. Note that the repo is not useful unless you are working at CGI as it contains logos etc that are copyright protected. If you want to create similar templates please use the repo mikey-harper/example-rmd-templates that is also the backbone of this repo. 
 
 - **My Template**: shows a minimal R Markdown template, defining several styles for HTML outputs.
 ´- **My Template (Extra Files)**: includes a custom logo and a `style.css` file to change the style of tables.
@@ -10,14 +10,16 @@ These templates are purposely very basic, being designed to demonstrate how cust
 
 ## Installing the Templates
 
-If you want to trial these templates within R Markdown, you can install the templates directly:
+If you want to install these templates, you can either clone this repo and point the installer to the local directory where you saved the repo, or just use the devtools package.
+
+Note the the CGI templates are found on the branch named CGI, so do not forget to specify this at install.
 
 ```
-# install.packages("devtools")
-devtools::install_github("mikey-harper/example-rmd-templates")
+install.packages("devtools")
+devtools::install_github("CGI-NRM/example-rmd-templates", ref = "cgi")
 ```
 
-This will install the package `MyTemplates`. Once installed, they will be available within the R Markdown templates as shown below:
+This will install the package `CGIReport`. Once installed, the templates are available as R Markdown templates:
 
 ![R Markdown templates](https://i.imgur.com/Cnlbhsm.png)
 

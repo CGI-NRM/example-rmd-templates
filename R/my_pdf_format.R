@@ -13,8 +13,8 @@ my_pdf_format = function(toc = FALSE, ...) {
     system.file(..., package = "CGIReport")
   }
   
-#  css    = pkg_resource("rmarkdown/resources/styles.css")
-#  footer = pkg_resource("rmarkdown/resources/footer.html")
+  tex    = pkg_resource("rmarkdown/resources/template.tex")
+
   
   # call the base pdf_document function
   rmarkdown::pdf_document(

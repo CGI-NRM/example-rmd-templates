@@ -16,8 +16,8 @@ my_pdf_format = function(toc = FALSE, ...) {
 #  css    = pkg_resource("rmarkdown/resources/styles.css")
 #  footer = pkg_resource("rmarkdown/resources/footer.html")
   
-  # call the base html_document function
-  rmarkdown::html_document(
+  # call the base pdf_document function
+  rmarkdown::pdf_document(
     toc = toc,
     toc_depth = 2,
     number_sections = TRUE,

@@ -19,7 +19,7 @@ my_pdf_format = function(toc = FALSE, ...) {
   # call the base pdf_document function
   rmarkdown::pdf_document(
     toc = toc,
-    template = textemp
+    template = textemp,
     toc_depth = 2,
     number_sections = TRUE,
     fig_width = 6.5,

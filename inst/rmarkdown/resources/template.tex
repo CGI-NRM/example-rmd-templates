@@ -136,32 +136,12 @@ $endif$
 \let\rmarkdownfootnote\footnote%
 \def\footnote{\protect\rmarkdownfootnote}
 
-$if(compact-title)$
-%%% Change title format to be more compact
-\usepackage{titling}
-
-% Create subtitle command for use in maketitle
-\newcommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
-}
-
-\setlength{\droptitle}{-2em}
-$endif$
-
-\title{
-\noindent
-\large\textbf{$title$} \hfill \textbf{$first-name$ $last-name$} \\
-\normalsize Module: $module$ \hfill Team members: $for(teammates)$$teammates$$sep$, $endfor$ \\
-Module Lead: $module-lead$ \hfill Lab Date: $lab-date$ \\
-Lab Lead: $TA$ \hfill Due Date: $due-date$
-}
-\date{\vspace{-5ex}}
-
-$for(header-includes)$
-$header-includes$
-$endfor$
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[swedish]{babel}
+\usepackage{graphics}
+\usepackage{float}
+\pagestyle{fancy}
 
 \begin{document}
 

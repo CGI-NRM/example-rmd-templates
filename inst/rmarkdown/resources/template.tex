@@ -10,6 +10,18 @@ $if(linestretch)$
 $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[swedish]{babel}
+\usepackage{graphics}
+\usepackage{float}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics[height=1cm]{naturhistoriska-riksmuseet.png}}
+\rhead{Diarienummer 4.1-16-2019}
+\chead{\today}
+\lfoot{}
+
 \usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
